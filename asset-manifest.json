@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TestTaskValantis/static/css/main.f31865b4.css",
+    "main.js": "/TestTaskValantis/static/js/main.ea591c15.js",
+    "index.html": "/TestTaskValantis/index.html",
+    "main.f31865b4.css.map": "/TestTaskValantis/static/css/main.f31865b4.css.map",
+    "main.ea591c15.js.map": "/TestTaskValantis/static/js/main.ea591c15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f31865b4.css",
+    "static/js/main.ea591c15.js"
+  ]
+}
