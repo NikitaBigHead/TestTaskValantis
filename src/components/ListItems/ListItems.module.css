@@ -1,0 +1,40 @@
+.table_section {
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 100%;
+}
+.table {
+    width: 100%;
+}
+.column_name {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0.5em 1em;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+.column_name:first-child {
+    border-top-left-radius: 4px;
+}
+.column_name:last-child {
+    border-top-right-radius: 4px;
+}
+.header_row {
+    background-color: #0d6efd;
+}
+.body_row:nth-child(even) {
+    background-color: rgb(231, 231, 231);
+}
+
+.body_td {
+    padding: 0.4em 1em;
+}
+
+.loading {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(231, 231, 231);
+}

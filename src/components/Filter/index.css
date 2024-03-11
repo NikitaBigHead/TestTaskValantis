@@ -1,0 +1,22 @@
+.select {
+    width: 180px;
+}
+.react-select__control--is--focused {
+    border: solid 1px #0d6efd;
+}
+.react-select__menu {
+    z-index: 999 !important;
+}
+.not-valid {
+    outline: solid 1px red;
+    border-radius: 4px;
+}
+.not-valid .react-select__control {
+    border: none !important;
+    border-color: none !important;
+    outline: none;
+}
+.react-select__control {
+    height: 38px !important;
+    border: solid 1px #e6e6e6 !important;
+}
