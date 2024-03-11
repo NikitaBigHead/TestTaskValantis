@@ -4,9 +4,6 @@ import Select from "react-select";
 import classNames from "classnames";
 import "./index.css";
 
-var CryptoJS = require("crypto-js");
-var date_fns = require("date-fns");
-
 const Filter = ({ getIdsList, getItemsList }) => {
     const options = [
         { value: "brand", label: "Бренд" },

@@ -66,7 +66,7 @@ const Main = () => {
 
     const getIdsList = (body) => {
         return new Promise(async (resolve, rejected) => {
-            let res = await fetch("http://api.valantis.store:40000/", {
+            let res = await fetch("https://api.valantis.store:41000/", {
                 method: "POST",
                 headers: {
                     "X-Auth": CryptoJS.MD5(
